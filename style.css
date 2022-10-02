@@ -2,3 +2,21 @@
   margin-left : 80px;
   font-size : 18px;
 }
+.container{
+  display: grid;
+  
+  grid-template-columns: auto auto auto auto auto;
+  grid-template: max-content;
+  grid-gap:20px;
+  padding: 10%;
+}
+.grid{
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 2pt;
+
+}
+#main{
+  text-align: center;
+}
+
